@@ -1,0 +1,344 @@
+body {
+   
+    line-height: 2; 
+    height: 100v; /* the height of the body will be 100 */
+    background-color: rgb(236, 187, 236); /* the color of the background will be pink */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* will make the box bigger */
+    font-family:sans-serif; 
+}
+ 
+
+a {
+    text-decoration: none; /* to remove the underline from the links */
+    color: beige; /* the colors of the links will be beige */
+}  
+
+nav {
+    display: flex; /* will arange the content of the nav beside each other  */
+    background-color: #200e3d;
+    justify-content: center; /* it will aligns the flex items at the center of the container */
+    position: fixed; /* positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled */
+    width: 100%;
+    padding: 5px;
+    text-transform: uppercase; /* everything will be in capital letter */
+    font-size: bold ; 
+    color: darkblue;
+    
+ }
+ 
+ /* every li inside ul will have these properties*/
+ ul, 
+ li {
+     
+     margin-left: 20px;
+     margin-right: 20px;
+     padding: 10px;
+     font-size: medium;
+     font-weight: 300; 
+ }
+
+ .nav{
+    display: inline; /* will arange the li inside the nav insead of beining under each other will be each beside other  */
+ }
+ 
+/* every a inside li, li inside ul inside the nav */
+nav ul li a {
+
+    font-size: 16px;
+    padding: 0 15px;
+    color: white;
+    transition: 0.2s; /* will be like a flash when we open the page */
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+/* when we hover over the link will be change from white to pink */
+nav ul li a:hover {
+    transition: 0.2s;
+    color: #99468e
+ }
+ 
+ /* these properties applies on id called aboutmewill */
+ #aboutme{
+    border: black;
+    border-radius: 10px;
+    background-color: turquoise;
+    text-align: center; /* the text will align on the center */
+    padding: 40px; /* padding left, right,top and buttom */
+    
+}
+
+/* these properties applies on image with id called dalyaImage */
+#dalyaImage{
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    
+}
+
+/* class aboutDalya will have these properties */
+.aboutDalya {
+    color: rgb(134, 23, 106); /* the color of class aboutDalya will be dark pink */
+    text-align: center; /* the content of this class aligns in the center */
+    font-size: 50px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 2px rgb(5, 4, 4); /* the content will have a shadow box  */
+    transition: 0.2s;
+ }
+
+ .cite{
+    box-sizing: block; /* how the total width and height of an element is calculated. */
+    margin-bottom: 40rem;
+    margin-left: 20px;
+    border: tan 2px solid;
+    border-radius: 10px;
+    background-color: rgb(211, 144, 191);
+    margin-right: 20px;
+    padding: 50px;
+    
+
+}
+
+.cite1{
+    align-items: center;/* the content will be centered  */
+    line-height: 1.5;
+    padding: 50%;
+
+}
+
+#adventureSeekers
+{
+    margin: 80px ;
+}
+
+#main {
+ border: #1f2027 2pc;
+ margin-top: 20px;
+ padding-top: 2px;
+}
+
+ footer {
+    height: 90px;
+    background-color: #1f2027;
+
+}
+
+h2{
+    margin-top: 30;
+
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.social-media {
+    font-size: 150%;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+   
+}
+
+.social-media a i{
+    transition: 0.2s;
+    color: white;
+    
+   
+  
+}
+
+/* all the links inside the class social-media will change to lightblue when we hover over it */
+.social-media a i:hover {
+    color: lightblue;
+    transition: 0.2;
+}
+
+.copyright {
+    color: white;
+}
+
+.aboutme-section{
+    width: 90%;
+    max-width: 1100px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    padding: 40px 0px 70px;
+    margin-top: 70px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 0px rgb(0 0 0 / 40%), -10px -10px 0px rgba(163, 103, 150, 0.8);   
+}
+
+#inspiration1{
+    background-color: rgb(233, 221, 235);
+    border: blueviolet solid 1px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+}
+
+/* when we hover over links the color will change to this #99468e */
+li a:hover {
+    transition: 0.2s;
+    color: #99468e
+ }
+ 
+ #hoppy {
+     margin-left: 20px;
+     font-size: blod;
+
+    
+ }
+
+ b{
+     color: rgb(182, 51, 51);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: 900;
+ }
+
+ h2{
+     color: rgb(167, 69, 150);
+ }
+
+ .img1{
+     border-radius: 50%;
+
+ }
+
+ .main-user-info{
+     
+    
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-bottom: 5rem;
+    padding-top:5rem;
+    border: 2px solid plum;
+    border-radius: 10px;
+    text-align: center;
+   font-size: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 700;
+ }
+
+ #formtitle{
+     margin: 10px;
+     color: rgb(127, 121, 138);
+     font-weight: 800;
+     font-style: oblique;
+     font-family: sans-serif;
+    text-shadow: 2px 2px 2px rgb(5, 4, 4);
+    transition: 0.2s;
+ }
+
+ .form-submit-btn{
+    border-radius: 5px;
+    background: rgb(34, 10, 51);
+    width: 140px;
+    margin-left: 200px;
+    transition: 0.3s;   
+ }
+
+ label{
+    color: navy;
+    background-position: 0ex;
+    text-align: center;
+    font-family: monospace;
+    
+}
+/* when we open in iPad */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+    nav,  nav ul {
+        flex-direction: column; /* when we minmaize the screen to 768px the ul,the content of the nav will be one under eachother*/
+     align-items: center; /* it is not justify a contect anymore the main axes is up and down we need cross access left and right */
+    
+    }
+    
+}
+
+/* when we open it on phone  */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1, 5em;
+    }
+
+    .img1{
+        margin-right: 20%;
+    }
+
+   p{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .copyright{
+        margin-left: 20%;
+    }
+
+    .class{
+       max-width: 1px;
+    }
+
+    .inspiration1{
+      padding-left: 50px;
+    }
+}
+
+.footer{
+    padding: 70px 0;
+    margin: 0 auto;
+    border-radius: 50px;
+}   
+
+#adventureSeekers{
+    font-family: sans-serif;
+    text-shadow: 2px 2px 2px rgb(5, 4, 4);
+    transition: 0.2s;
+}
+
+h4{
+    color: blueviolet;
+    text-align: center;
+    font-size: 2em;
+    transition: 0.3s;  
+    text-shadow: 2px 2px 2px rgb(5, 4, 4);
+}
+
+/* the background of the paragraph will be this color when we hover over it  */
+p:hover {
+    background-color: rgb(100, 19, 83);
+  }
